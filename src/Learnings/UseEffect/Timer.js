@@ -17,6 +17,7 @@ function Timer() {
     <div>
       <h2>Timer</h2>
       <p>Elapsed Time: {count} seconds</p>
+      <p>Elapsed Time: {count / 60} Minutes</p>
     </div>
   );
 }
